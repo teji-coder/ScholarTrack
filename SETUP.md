@@ -1,7 +1,6 @@
-==========================================================
+
                     SCHOLARTRACK
      Scholarship Eligibility and Application Portal
-==========================================================
 
 SETUP GUIDE
 
@@ -9,9 +8,8 @@ Thank you for downloading ScholarTrack.
 
 Follow the instructions below to properly set up and run the system on your local machine.
 
-==========================================================
+
 SYSTEM REQUIREMENTS
-==========================================================
 
 • Windows 10 or Windows 11
 • XAMPP (Version 8.0 or later recommended)
@@ -20,9 +18,9 @@ SYSTEM REQUIREMENTS
 • Modern Web Browser
   (Google Chrome, Microsoft Edge, Mozilla Firefox)
 
-==========================================================
+
 INSTALLATION
-==========================================================
+
 
 STEP 1
 Install XAMPP if it is not yet installed.
@@ -51,7 +49,7 @@ C:\xampp\htdocs\GUELAS\ScholarTrack\
 
 depending on your project structure.
 
-==========================================================
+===============================
 
 STEP 3
 Start the required services.
@@ -65,7 +63,7 @@ Click:
 
 Both services should turn green.
 
-==========================================================
+===============================
 
 STEP 4
 Create the database.
@@ -90,8 +88,7 @@ Then click:
 
 Create
 
-==========================================================
-
+===============================
 STEP 5
 Import the database.
 
@@ -112,7 +109,7 @@ Wait until the message:
 
 appears.
 
-==========================================================
+===============================
 
 STEP 6
 Verify the uploaded folders.
@@ -126,7 +123,7 @@ uploads/
 Do not delete these folders because they store system assets,
 profile pictures, and uploaded scholarship requirements.
 
-==========================================================
+===============================
 
 STEP 7
 Open the website.
@@ -147,10 +144,9 @@ Open:
 
 http://localhost/GUELAS/ScholarTrack/uploads/
 
-==========================================================
+===============================
 DEFAULT ADMIN ACCOUNT
-==========================================================
-
+===============================
 Email:
 admin@scholartrack.com
 
@@ -161,9 +157,9 @@ NOTE:
 If your project uses a different administrator account,
 replace the credentials above with the correct ones.
 
-==========================================================
+===============================
 FEATURES
-==========================================================
+===============================
 
 Student Module
 
@@ -189,9 +185,9 @@ Administrator Module
 • Student Profile Viewing
 • Change Password
 
-==========================================================
+===============================
 TROUBLESHOOTING
-==========================================================
+===============================
 
 Problem:
 Unable to connect to the database.
@@ -201,7 +197,7 @@ Solution:
 • Verify that the database name is "scholartrack".
 • Check the database credentials in config.php.
 
-----------------------------------------------------------
+--------------------------------------------------
 
 Problem:
 Images are not displayed.
@@ -211,7 +207,8 @@ Solution:
 • Verify uploaded images are inside the profile folder.
 • Refresh the browser using Ctrl + F5.
 
-----------------------------------------------------------
+--------------------------------------------------
+
 
 Problem:
 Blank page or PHP errors.
@@ -221,9 +218,9 @@ Solution:
 • Verify that all project files were copied correctly.
 • Restart Apache after making configuration changes.
 
-==========================================================
+===============================
 PROJECT INFORMATION
-==========================================================
+===============================
 
 Project Name:
 ScholarTrack
