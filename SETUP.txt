@@ -1,0 +1,244 @@
+==========================================================
+                    SCHOLARTRACK
+     Scholarship Eligibility and Application Portal
+==========================================================
+
+SETUP GUIDE
+
+Thank you for downloading ScholarTrack.
+
+Follow the instructions below to properly set up and run the system on your local machine.
+
+==========================================================
+SYSTEM REQUIREMENTS
+==========================================================
+
+• Windows 10 or Windows 11
+• XAMPP (Version 8.0 or later recommended)
+• PHP 8.0+
+• MySQL / MariaDB
+• Modern Web Browser
+  (Google Chrome, Microsoft Edge, Mozilla Firefox)
+
+==========================================================
+INSTALLATION
+==========================================================
+
+STEP 1
+Install XAMPP if it is not yet installed.
+
+Download:
+https://www.apachefriends.org/
+
+After installation, open the XAMPP Control Panel.
+
+==========================================================
+
+STEP 2
+Copy the project folder.
+
+Move the entire ScholarTrack folder to:
+
+C:\xampp\htdocs\
+
+Example:
+
+C:\xampp\htdocs\ScholarTrack\
+
+or
+
+C:\xampp\htdocs\GUELAS\ScholarTrack\
+
+depending on your project structure.
+
+==========================================================
+
+STEP 3
+Start the required services.
+
+Open XAMPP Control Panel.
+
+Click:
+
+✓ Apache
+✓ MySQL
+
+Both services should turn green.
+
+==========================================================
+
+STEP 4
+Create the database.
+
+Open your browser and visit:
+
+http://localhost/phpmyadmin
+
+Click:
+
+New
+
+Create a database named:
+
+scholartrack
+
+Use:
+
+utf8mb4_general_ci
+
+Then click:
+
+Create
+
+==========================================================
+
+STEP 5
+Import the database.
+
+Inside phpMyAdmin:
+
+1. Select the database "scholartrack"
+2. Click the Import tab
+3. Click Choose File
+4. Select:
+
+scholartrack.sql
+
+5. Click Import
+
+Wait until the message:
+
+"Import has been successfully finished."
+
+appears.
+
+==========================================================
+
+STEP 6
+Verify the uploaded folders.
+
+The following folders must exist inside the project:
+
+assets/
+profile/
+uploads/
+
+Do not delete these folders because they store system assets,
+profile pictures, and uploaded scholarship requirements.
+
+==========================================================
+
+STEP 7
+Open the website.
+
+If your project is inside:
+
+htdocs/ScholarTrack/
+
+Open:
+
+http://localhost/ScholarTrack/
+
+If your project is inside:
+
+htdocs/GUELAS/ScholarTrack/uploads/
+
+Open:
+
+http://localhost/GUELAS/ScholarTrack/uploads/
+
+==========================================================
+DEFAULT ADMIN ACCOUNT
+==========================================================
+
+Email:
+admin@scholartrack.com
+
+Password:
+admin123
+
+NOTE:
+If your project uses a different administrator account,
+replace the credentials above with the correct ones.
+
+==========================================================
+FEATURES
+==========================================================
+
+Student Module
+
+• Student Registration
+• Student Login
+• Forgot Password
+• Change Password
+• Profile Management
+• Profile Picture Upload
+• Scholarship Browsing
+• Scholarship Application
+• Application Tracking
+• Notifications
+
+Administrator Module
+
+• Admin Login
+• Dashboard
+• Manage Scholarships
+• Manage Students
+• Manage Applications
+• Reports
+• Student Profile Viewing
+• Change Password
+
+==========================================================
+TROUBLESHOOTING
+==========================================================
+
+Problem:
+Unable to connect to the database.
+
+Solution:
+• Ensure Apache and MySQL are running.
+• Verify that the database name is "scholartrack".
+• Check the database credentials in config.php.
+
+----------------------------------------------------------
+
+Problem:
+Images are not displayed.
+
+Solution:
+• Ensure the "profile" folder exists.
+• Verify uploaded images are inside the profile folder.
+• Refresh the browser using Ctrl + F5.
+
+----------------------------------------------------------
+
+Problem:
+Blank page or PHP errors.
+
+Solution:
+• Make sure PHP version 8.0 or higher is installed.
+• Verify that all project files were copied correctly.
+• Restart Apache after making configuration changes.
+
+==========================================================
+PROJECT INFORMATION
+==========================================================
+
+Project Name:
+ScholarTrack
+
+System Type:
+Scholarship Eligibility and Application Portal
+
+Developed using:
+
+• PHP
+• MySQL
+• HTML5
+• CSS3
+• JavaScript
+
+==========================================================
+END OF SETUP GUIDE
+==========================================================
